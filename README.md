@@ -13,11 +13,11 @@ Looks for tunneled layer in 'data' field of ICMP packet (ICMP.data of Ether/IP/I
 ### Options:
 
 **Required:**
-- input_file    Capture file to extract from.  Works with scapy compatible capture files.
-- output_file   File to write extracted layer to.
+- [input_file]    Capture file to extract from.  Works with scapy compatible capture files.
+- [output_file]   File to write extracted layer to.
   
 **Optional:**
-- -o            Specify byte offset of tunneled layer in data field.
+- [-o]            Specify byte offset of tunneled layer in data field.
 
 ### Examples: 
 python3 tunx Ping.pcap extract.pcap
