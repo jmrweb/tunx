@@ -20,9 +20,9 @@ Looks for tunneled layer in 'data' field of ICMP packet (ICMP.data of Ether/IP/I
 - [-o]            Specify byte offset of tunneled layer in data field.
 
 ### Examples: 
-python3 tunx Ping.pcap extract.pcap
+`python3 tunx Ping.pcap extract.pcap`
 
-python3 tunx -o 5 sneakers.pcap extract2.pcap
+`python3 tunx -o 5 sneakers.pcap extract2.pcap`
 
 ### Author:
 James Read
